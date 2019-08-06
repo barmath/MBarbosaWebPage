@@ -1,38 +1,143 @@
 body{
     margin: 0;
-    font-family: Arial, 'Helvetica', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12pt;
 }
 
-header{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    background-color: yellow;
+img {
+    display:table-cell; 
+    vertical-align:middle;
+    text-align:center
+    text-align: center;
+    width: 83vw;
+}
+
+.partOne{
+    background-image:url("/static/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+    height: 100vh;
+    text-align: center;
+
+}
+.upper{
+
+    color: white;
+    position: absolute;
+    position: absolute;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.upper h1{
+    font-size: 5vh;
     color: black;
+    font-family: 'Volkhov', serif;
 }
+.upper p{
+    font-size: 10vh;
+    color: white;
+    font-family: 'Baloo', cursive;
+} 
 
-header nav{
-    display: flex;
+
+
+.partTwo{
+    background-color:   #FAF8FE;
     align-items: center;
 }
-
-header nav a{
-    text-decoration: none;
-    margin: 0 60px;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    
-}
-
-div{
+.partTwo h1{
     text-align: center;
-    margin:10px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin: 0; 
+}
+.partTwo h2{
+    color: #00349c;
+    margin-bottom: 0px;
+}
+.partTwo h3{
+    color: #9c4122;
+    margin-top: 0px;
+}
+
+.thingsIveDone{
+    width: 83vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
 }
 
 
-h2{
-    position: absolute;
-    left: 60px;
+.partThree{
+    height: 80vh;
+    background-color:   #0c7d96;
+    align-items: center;
+    text-decoration: none;
+}
+.partThree h1{
+    font-size: 16pt;
+    color: white;
+}
+.partThree ul{
+    margin-top: 8vh; 
+    padding-left:0px;
+}
+.partThree li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16pt;
+    padding: 0px 0px 16px;
 
+}
+.articles{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+.partFour{
+    text-align: center;
+    height:40vh;
+}
+.partFour p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+.partFive{
+    text-align: center;
+    height: 70vh;
+} 
+.partFive a{
+    height: 70vh;
+} 
+.partFive img{
+    height: 16vh;
+    width: auto;
+}
+.row {
+  margin-left: 5vw;
+  margin-right: auto;
+  width: 80vw;
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
 }

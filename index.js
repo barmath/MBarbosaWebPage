@@ -17,6 +17,6 @@ app.get('/secondpage', (req, res) => {
 });
 
 
-app.listen(3000, () => {
-    console.log('Servidor inicializado na 3000')
+app.listen(8000, () => {
+    console.log('Servidor inicializado na 8000')
 });

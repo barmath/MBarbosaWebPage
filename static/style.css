@@ -18,6 +18,51 @@ img {
     text-align: center;
     width: 83vw;
 }
+.icon {
+    background-color: black;
+}
+span{
+    margin-top: 4vw;
+    margin-left: 6vw;
+    position: fixed;
+    color: black;
+}
+.sidenav {
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
 .partOne{
     background-image:url("/static/me.jpg");
@@ -117,18 +162,6 @@ a{
     font-family: 'Rajdhani', sans-serif;
 }
 
-.partFour{
-    text-align: center;
-    height:40vh;
-}
-.partFour h1{
-  margin-bottom: 0; 
-}
-.partFour p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80vw;
-}
 .partFive{
     text-align: center;
     height: 70vh;
@@ -137,6 +170,7 @@ a{
   margin-bottom: 0; 
 }
 .partFive a{
+    color: black;
     height: 70vh;
 } 
 .partFive img{
@@ -159,51 +193,12 @@ a{
     margin-right: auto;
     width: 80vw;
 }
-.icon {
-    background-color: black;
-}
-span{
-    margin-top: 4vw;
-    margin-left: 6vw;
-    position: fixed;
-    color: black;
-}
-.sidenav {
-
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+.resume{
+  background-color: black;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
 
 
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -239,11 +234,6 @@ span{
   }
   .thingsIveDone h2{
     margin-top: 0;
-  }
-  .partFour p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60vw;
   }
   .footer{
     margin-left: auto;

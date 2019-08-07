@@ -12,6 +12,26 @@
   </head> 
   <body>
 
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#2">ABOUT ME</a>
+	  <a href="#3">MY WAY OF LIFE</a>
+	  <a href="#4">MY TASTE</a>
+	  <a href="#5">CONNECT</a>
+	</div>
+	<div class="icon">
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	</div>
+	<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
   
     <section class="partOne">
         	<div class="upper">
@@ -19,8 +39,8 @@
             	<p>Matheus Barbosa</p>
           </div>     
     </section> 
-
-    <section class="partTwo">
+    <a name="partTwo"></a>
+    <section class="partTwo" id="2">
         <div>
 
         	<h1>Hare's what I've done so far</h1>
@@ -57,7 +77,7 @@
           
         </div>       
     
-    <section class="partThree">
+    <section class="partThree" id="3">
    			<h1>My way of life</h1>
         <div class="articles">
      			<ul>
@@ -68,13 +88,13 @@
           </ul>
    		 </div>
    	</section>
-   	<section class="partFour">
+   	<section class="partFour" id="4">
    		<div>
    			<h1>My tastes</h1>
    			<p>A good glass of wine followed by a very good indie rock and roll. About sports enjoy adventures like hiking, biking and running.As peculiarity is aviation for reasons unknown.</p>
    		</div>
    	</section>
-   	<section class="partFive">
+   	<section class="partFive" id="5">
    		<div>
    			<h1>My contacts</h1>
         <div class="footer">
@@ -91,7 +111,7 @@
               </a>
             </div>
      			</div>
-     			<p>Email : matheus_barbosa{AT}usp.br<p>
+     			<p>Email : matheus_barbosa@usp.br<p>
    		 </di>
    		</div>
    	</section>

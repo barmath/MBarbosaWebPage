@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+hr{
+    width: 50vw;
+  }
 
 body{
     margin: 0;
@@ -54,6 +57,7 @@ img {
     align-items: center;
 }
 .partTwo h1{
+    font-size: 4.5vh;
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -66,6 +70,9 @@ img {
 .partTwo h3{
     color: #9c4122;
     margin-top: 0px;
+}
+.thingsIveDone img{
+  border-radius: 13%;
 }
 
 .thingsIveDone{
@@ -83,8 +90,8 @@ img {
     text-decoration: none;
 }
 .partThree h1{
-    font-size: 16pt;
     color: white;
+    margin-bottom: 0; 
 }
 .partThree ul{
     margin-top: 8vh; 
@@ -109,9 +116,13 @@ a{
     font-style: bold;
     font-family: 'Rajdhani', sans-serif;
 }
+
 .partFour{
     text-align: center;
     height:40vh;
+}
+.partFour h1{
+  margin-bottom: 0; 
 }
 .partFour p{
     margin-left: auto;
@@ -122,6 +133,9 @@ a{
     text-align: center;
     height: 70vh;
 } 
+.partFive h1{
+  margin-bottom: 0; 
+}
 .partFive a{
     height: 70vh;
 } 
@@ -194,4 +208,60 @@ span{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+@media only screen and (min-width: 679px) {
+  span {
+    margin-left: -80vw;
+  }
+  img {
+    display:table-cell; 
+    vertical-align:left;
+    text-align:left;
+    width: 15vw;
+  }
+  .partTwo{
+    background-color:   #FAF8FE;
+    align-items: inherit;
+  }
+
+  .thingsIveDone{
+      display: flex;
+      width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 4vh;
+  }
+  .column2 {
+    width: 45vw;
+  }
+  .column1{
+    width: 20vw;
+  }
+  .thingsIveDone h2{
+    margin-top: 0;
+  }
+  .partFour p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+  }
+  .footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+  }
+  .row {
+    text-align-last:center; 
+    margin-left: 5vw;
+    margin-right: auto;
+    width: 40vw;
+    display: flex;
+  }
+
+  .column {
+    margin-left: 5vw;
+    flex: 50%;
+    padding: 5px;
+  }
+
 }

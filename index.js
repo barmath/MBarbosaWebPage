@@ -17,6 +17,6 @@ app.get('/secondpage', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log('Servidor inicializado')
+app.listen(process.env.PORT || 4000, () => {
+    console.log('Server started at door 4000')
 });

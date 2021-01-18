@@ -129,7 +129,7 @@ span{
 
 
 .partThree{
-    height: 80vh;
+    height: 40vh;
     background-color:   #0c7d96;
     align-items: center;
     text-decoration: none;
@@ -138,19 +138,13 @@ span{
     color: white;
     margin-bottom: 0; 
 }
-.partThree ul{
-    margin-top: 8vh; 
-    padding-left:0px;
+.partThree i{
+  color: white;
+  margin-bottom: 0; 
+  font-style: normal;
+  font-size: large;
 }
-.partThree li{
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 16pt;
-    padding: 0px 0px 16px;
-
-}
-.articles{
+.phrase{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;

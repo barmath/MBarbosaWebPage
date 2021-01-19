@@ -116,6 +116,9 @@ span{
     color: #9c4122;
     margin-top: 0px;
 }
+.thingsIveDone a{
+  color: #000000;
+}
 .thingsIveDone img{
   border-radius: 13%;
 }
